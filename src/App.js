@@ -2,7 +2,7 @@ import React from 'react';
 import Search from './components/Search';
 import Recipes from './components/Recipes';
 import './App.css';
-const YOUR_API_KEY=process.env.API_KEY;
+const YOUR_API_KEY=process.env.REACT_APP_API_KEY;
 class App extends React.Component {
   
   constructor(props)
